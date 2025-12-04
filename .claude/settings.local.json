@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(go build:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File build.ps1)",
+      "Bash(Start-Process -FilePath \".\\lol-kind-bot.exe\" -ArgumentList \"-debug\" -PassThru)",
+      "Bash(Select-Object -ExpandProperty Id)",
+      "Bash(powershell -Command \"Start-Process -FilePath ''.\\lol-kind-bot.exe'' -ArgumentList ''-debug''\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

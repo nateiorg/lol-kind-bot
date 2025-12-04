@@ -1,0 +1,162 @@
+2025/11/30 17:55:45 main.go:74: Loaded config from: C:\Projects\lol-kind-bot\config.json
+2025/11/30 17:55:45 main.go:75: My Summoner Name: Phreaktastic#GoGo
+2025/11/30 17:55:45 main.go:76: LLM Model: gemma3
+2025/11/30 17:55:45 main.go:77: LLM URL: http://localhost:11434/api/generate
+2025/11/30 17:55:45 main.go:100: Checking for lockfile at: C:\Riot Games\League of Legends\lockfile
+2025/11/30 17:55:45 main.go:109: Found lockfile: port=60201, protocol=https
+2025/11/30 17:55:45 main.go:119: Connected to LCU at: https://127.0.0.1:60201
+2025/11/30 17:55:45 main.go:164: Detected EndOfGame phase on startup, processing...
+2025/11/30 17:55:47 main.go:207: Processing EndOfGame event...
+2025/11/30 17:55:47 main.go:228: Processing game ID: 5.425088133e+09
+2025/11/30 17:55:47 main.go:233: Raw EoG stats response length: 35127 bytes
+2025/11/30 17:55:47 main.go:239: Top-level keys in EoG response (46 keys): [gameMode gameMutators gameEndedInEarlySurrender ipEarned mucJwtDto nextLevelXp preLevelUpExperienceTotal rerollData rpEarned loyaltyBoostXpEarned experienceTotal ipTotal missionsXpEarned previousLevel reportGameId teamBoost difficulty earlySurrenderAccomplice gameId globalBoostXpEarned localPlayer previousXpTotal queueType teams basePoints boostIpEarned multiUserChatPassword ranked xbgpBoostXpEarned causedEarlySurrender gameType leveledUp myTeamStatus preLevelUpNextLevelXp boostXpEarned currentLevel invalid newSpells teamEarlySurrendered timeUntilNextFirstWinBonus multiUserChatId battleBoostIpEarned endOfGameTimestamp experienceEarned firstWinBonus gameLength]
+2025/11/30 17:55:47 main.go:255: Found teams field
+2025/11/30 17:55:47 main.go:257: Found 2 teams
+2025/11/30 17:55:47 main.go:261: Team 0 keys: [fullId stats tag isBottomTeam isPlayerTeam isWinningTeam memberStatusString name players teamId]
+2025/11/30 17:55:47 main.go:264: Team 0 has 5 players
+2025/11/30 17:55:47 main.go:269: Team 0 first player keys (27 keys): [items riotIdTagLine skinEmblemPaths skinSplashPath spell1Id championSquarePortraitPath leaver leaves losses selectedPosition summonerName botPlayer detectedTeamPosition isLocalPlayer profileIconId puuid riotIdGameName skinTilePath spell2Id championName gameId level stats summonerId teamId wins championId]
+2025/11/30 17:55:47 main.go:272:   summonerName: 
+2025/11/30 17:55:47 main.go:277:   Found nested stats with keys: [TOTAL_HEAL TRUE_DAMAGE_DEALT_PLAYER PERK3_VAR2 PLAYER_AUGMENT_4 TOTAL_DAMAGE_DEALT ASSISTS PERK0_VAR2 PERK4_VAR1 PHYSICAL_DAMAGE_TAKEN TEAM_EARLY_SURRENDERED TOTAL_TIME_SPENT_DEAD TRUE_DAMAGE_DEALT_TO_CHAMPIONS GAME_ENDED_IN_EARLY_SURRENDER TOTAL_DAMAGE_SELF_MITIGATED NUM_DEATHS PERK0_VAR1 PERK0_VAR3 PERK1 PERK4_VAR3 PERK_PRIMARY_STYLE PHYSICAL_DAMAGE_DEALT_PLAYER SIGHT_WARDS_BOUGHT_IN_GAME MAGIC_DAMAGE_DEALT_PLAYER PERK5_VAR1 PHYSICAL_DAMAGE_DEALT_TO_CHAMPIONS TOTAL_DAMAGE_DEALT_TO_CHAMPIONS TOTAL_TIME_CROWD_CONTROL_DEALT WAS_AFK PERK1_VAR3 MAGIC_DAMAGE_DEALT_TO_CHAMPIONS LEVEL PERK3_VAR1 TEAM_OBJECTIVE TOTAL_DAMAGE_SHIELDED_ON_TEAMMATES TOTAL_HEAL_ON_TEAMMATES WIN MINIONS_KILLED PERK2_VAR1 TOTAL_DAMAGE_DEALT_TO_OBJECTIVES TURRETS_KILLED VISION_WARDS_BOUGHT_IN_GAME BARRACKS_KILLED GOLD_EARNED PERK5 PERK5_VAR3 PLAYER_AUGMENT_5 PERK1_VAR1 PLAYER_AUGMENT_1 TIME_CCING_OTHERS TOTAL_DAMAGE_DEALT_TO_BUILDINGS TOTAL_DAMAGE_DEALT_TO_TURRETS CHAMPIONS_KILLED NEUTRAL_MINIONS_KILLED PERK4 PERK3_VAR3 TRUE_DAMAGE_TAKEN MAGIC_DAMAGE_TAKEN GAME_ENDED_IN_SURRENDER PLAYER_SUBTEAM_PLACEMENT SPELL2_CAST TOTAL_DAMAGE_TAKEN PLAYER_AUGMENT_6 LARGEST_MULTI_KILL PERK3 PERK4_VAR2 PERK5_VAR2 PLAYER_AUGMENT_2 PERK1_VAR2 PERK2_VAR2 LARGEST_KILLING_SPREE PERK0 PLAYER_AUGMENT_3 SPELL1_CAST PERK2_VAR3 PERK_SUB_STYLE LARGEST_CRITICAL_STRIKE PERK2 PLAYER_SUBTEAM]
+2025/11/30 17:55:47 main.go:295:   riotIdGameName: Phreaktastic
+2025/11/30 17:55:47 main.go:301:   championName: Renata Glasc
+2025/11/30 17:55:47 main.go:304:   championId: 888
+2025/11/30 17:55:47 main.go:261: Team 1 keys: [memberStatusString isPlayerTeam name players stats tag teamId fullId isBottomTeam isWinningTeam]
+2025/11/30 17:55:47 main.go:264: Team 1 has 5 players
+2025/11/30 17:55:47 main.go:269: Team 1 first player keys (27 keys): [selectedPosition skinEmblemPaths spell2Id championName detectedTeamPosition gameId isLocalPlayer items leaves losses stats leaver riotIdTagLine spell1Id level profileIconId skinSplashPath skinTilePath summonerId summonerName teamId wins botPlayer championId championSquarePortraitPath puuid riotIdGameName]
+2025/11/30 17:55:47 main.go:272:   summonerName: 
+2025/11/30 17:55:47 main.go:277:   Found nested stats with keys: [TOTAL_DAMAGE_SELF_MITIGATED LARGEST_CRITICAL_STRIKE NEUTRAL_MINIONS_KILLED PERK1_VAR1 SIGHT_WARDS_BOUGHT_IN_GAME TOTAL_DAMAGE_DEALT_TO_OBJECTIVES TOTAL_HEAL TURRETS_KILLED CHAMPIONS_KILLED PERK0_VAR1 PERK3_VAR3 PERK4 PERK_PRIMARY_STYLE PLAYER_AUGMENT_1 TOTAL_DAMAGE_SHIELDED_ON_TEAMMATES TOTAL_HEAL_ON_TEAMMATES LARGEST_KILLING_SPREE PERK1_VAR3 PERK5_VAR3 PHYSICAL_DAMAGE_DEALT_PLAYER VISION_WARDS_BOUGHT_IN_GAME NUM_DEATHS PERK0 PERK0_VAR2 PERK2 PERK4_VAR2 SPELL2_CAST TOTAL_DAMAGE_DEALT_TO_BUILDINGS TOTAL_DAMAGE_DEALT_TO_CHAMPIONS PLAYER_AUGMENT_5 PERK2_VAR2 PERK0_VAR3 PERK2_VAR1 PHYSICAL_DAMAGE_DEALT_TO_CHAMPIONS TRUE_DAMAGE_TAKEN GAME_ENDED_IN_SURRENDER MAGIC_DAMAGE_TAKEN PERK3 PERK4_VAR3 PLAYER_AUGMENT_4 TEAM_EARLY_SURRENDERED TOTAL_DAMAGE_TAKEN PERK5_VAR1 TEAM_OBJECTIVE MAGIC_DAMAGE_DEALT_TO_CHAMPIONS PERK3_VAR2 TOTAL_TIME_SPENT_DEAD TRUE_DAMAGE_DEALT_PLAYER PLAYER_AUGMENT_3 PLAYER_AUGMENT_6 ASSISTS PERK5_VAR2 PERK_SUB_STYLE TOTAL_TIME_CROWD_CONTROL_DEALT SPELL1_CAST PERK1 PERK1_VAR2 PERK4_VAR1 TOTAL_DAMAGE_DEALT_TO_TURRETS GAME_ENDED_IN_EARLY_SURRENDER GOLD_EARNED PERK3_VAR1 BARRACKS_KILLED LEVEL PERK2_VAR3 PHYSICAL_DAMAGE_TAKEN LOSE MAGIC_DAMAGE_DEALT_PLAYER MINIONS_KILLED WAS_AFK TOTAL_DAMAGE_DEALT TRUE_DAMAGE_DEALT_TO_CHAMPIONS LARGEST_MULTI_KILL PERK5 PLAYER_AUGMENT_2 PLAYER_SUBTEAM PLAYER_SUBTEAM_PLACEMENT TIME_CCING_OTHERS]
+2025/11/30 17:55:47 main.go:295:   riotIdGameName: HeiShenberg
+2025/11/30 17:55:47 main.go:301:   championName: Senna
+2025/11/30 17:55:47 main.go:304:   championId: 235
+2025/11/30 17:55:47 main.go:366: [DEBUG] === DAMAGE ACCURACY CHECK ===
+2025/11/30 17:55:47 main.go:367: [DEBUG] All players' damage values:
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 0 (Renata Glasc): totalDamage=36582, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 1 (Pyke): totalDamage=51053, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 2 (Fiddlesticks): totalDamage=89216, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 3 (Gwen): totalDamage=107576, highestDamageInGame=true, highestDamageOnTeam=true, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 4 (Malphite): totalDamage=63432, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 5 (Senna): totalDamage=54473, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 6 (Garen): totalDamage=63964, highestDamageInGame=false, highestDamageOnTeam=true, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 7 (Illaoi): totalDamage=58162, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 8 (Jinx): totalDamage=56428, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:371: [DEBUG] Player 9 (Irelia): totalDamage=37392, highestDamageInGame=false, highestDamageOnTeam=false, afk=false
+2025/11/30 17:55:47 main.go:378: [DEBUG] Max damage in game: 107576 (by Gwen)
+2025/11/30 17:55:47 main.go:389: [DEBUG] Γ£ô Gwen correctly marked as highestDamageInGame with 107576 damage
+2025/11/30 17:55:47 main.go:396: [DEBUG] === END DAMAGE CHECK ===
+2025/11/30 17:55:47 main.go:407: [DEBUG] LLM Prompt (first 1000 chars):
+You are a League of Legends post-game sportsmanship coach. Your role is to generate positive, wholesome messages for post-game chat.
+
+Core Rules:
+- Never insult, blame, or criticize any player.
+- No sarcasm, no passive-aggressive comments.
+- Always maintain a positive, sportsmanlike attitude.
+- Be context-aware: understand which team you're on, which team won, and tailor messages accordingly.
+
+
+CRITICAL CONTEXT - UNDERSTAND THE REALITY:
+- This is a SINGLE MATCH with RANDOM PLAYERS. You will likely never see these players again.
+- Team colors (RED/BLUE) are meaningless - players don't identify with "team RED" or "team BLUE".
+- This is NOT a permanent team. These are strangers matched together for ONE game.
+- Do NOT reference team colors (RED/BLUE) - they're irrelevant and no one cares.
+- Do NOT imply future games together ("next game", "keep pushing", "keep it up", "see you next time").
+- Focus on THIS match only - acknowledge what happened, praise good plays, move on.
+
+WIN/LOSS AWARENE...
+2025/11/30 17:55:47 main.go:413: [DEBUG] Game Summary JSON (first 2000 chars):
+{
+  "gameDurationMinutes": 23.1,
+  "winningTeam": "UNKNOWN",
+  "mySummonerName": "Phreaktastic#GoGo",
+  "myTeam": "RED",
+  "players": [
+    {
+      "summonerName": "Phreaktastic#GoGo",
+      "team": "RED",
+      "champion": "Renata Glasc",
+      "k": 6,
+      "d": 10,
+      "a": 57,
+      "csPerMin": 1.3852813852813852,
+      "damageShare": 0.10516329892283943,
+      "visionScore": 0,
+      "tags": [
+        "utility_mvp"
+      ],
+      "afk": false,
+      "metrics": {
+        "Kills": 6,
+        "Deaths": 10,
+        "Assists": 57,
+        "KDA": 6.3,
+        "TeamKills": 76,
+        "TeamDamageChamps": 347859,
+        "TeamGold": 116585,
+        "GameMinutes": 23.1,
+        "CSTotal": 32,
+        "CSPM": 1.3852813852813852,
+        "KP": 0.8289473684210527,
+        "DamageShare": 0.10516329892283943,
+        "DPM": 1583.6363636363635,
+        "GoldShare": 0.1896384612085603,
+        "VSPM": 0,
+        "DTAM": 1958.2251082251082,
+        "TeamDamageTaken": 302582,
+        "DamageTakenShare": 0.14949666536674355,
+        "CCPerMinute": 1.8181818181818181,
+        "TotalHealsOnTeammates": 999,
+        "TotalDamageShieldedOnTeammates": 9117,
+        "TimeCCingOthers": 42,
+        "TotalDamageTaken": 45235,
+        "TotalDamageSelfMitigated": 51768,
+        "Role": ""
+      },
+      "mostShieldingInGame": true,
+      "mostHealingShielding": true,
+      "totalDamage": 36582,
+      "totalHealing": 999,
+      "totalShielding": 9117,
+      "totalCC": 42,
+      "totalDamageMitigated": 51768
+    },
+    {
+      "summonerName": "Papis#0001",
+      "team": "RED",
+      "champion": "Pyke",
+      "k": 25,
+      "d": 9,
+      "a": 20,
+      "csPerMin": 0.7359307359307359,
+      "damageShare": 0.14676348750499485,
+      "visionScore": 0,
+      "tags": [],
+      "afk": false,
+      "metrics": {
+        "Kills": 25,
+        "Deaths": 9,
+        "Assists": 20,
+        "KDA": 5,
+        "TeamKills": 76,
+        "TeamDamageChamps": 347859,
+        "TeamGold": 116585,
+        "GameMinute...
+2025/11/30 17:55:48 gameflow.go:98: Gameflow phase: EndOfGame
+2025/11/30 17:55:48 gameflow.go:108: Detected EndOfGame; fetching stats...
+2025/11/30 17:55:48 main.go:207: Processing EndOfGame event...
+2025/11/30 17:55:48 main.go:223: Game 5.425088133e+09 already processed, skipping duplicate event
+2025/11/30 17:55:50 client.go:511: [DEBUG] Raw LLM response length: 254 chars
+2025/11/30 17:55:50 client.go:512: [DEBUG] Raw LLM response:
+Okay, hereΓÇÖs a quick post-game analysis!
+
+Gwen dealt the most damage in the game! Amazing vision control from Irelia too ΓÇô really kept us on the map. Nice damage from Jinx! Incredible damage AND vision control from Irelia! Well played everyone, ggwp!
+2025/11/30 17:55:50 client.go:513: [DEBUG] Parsed 1 messages before validation
+2025/11/30 17:55:50 client.go:515: [DEBUG]   Message 1: Okay, here's a quick post-game analysis!
+2025/11/30 17:55:50 client.go:523: [DEBUG] After validation: 1 messages
+2025/11/30 17:55:50 client.go:525: [DEBUG]   Validated message 1: Okay, here's a quick post-game analysis!
+2025/11/30 17:55:50 main.go:432: 
+=== Suggested Post-Game Messages ===
+2025/11/30 17:55:50 main.go:434: 1. Okay, here's a quick post-game analysis!
+2025/11/30 17:55:50 main.go:434: 2. ggwp everyone, thanks for the game!
+2025/11/30 17:55:50 main.go:436: ===================================
+
+2025/11/30 17:55:50 main.go:440: [DEBUG MODE] Skipping popup dialog and terminating process.
+2025/11/30 17:55:57 main.go:605: Exiting...

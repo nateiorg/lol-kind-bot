@@ -1,0 +1,16 @@
+{
+  "mySummonerName": "YourSummonerName",
+  "ollamaModel": "llama3.1",
+  "ollamaUrl": "http://localhost:11434/api/generate",
+  "pollIntervalSeconds": 3,
+  "endOfGameCooldownSeconds": 30,
+  "autoCopyToClipboard": true,
+  "enableDetailedLogging": false,
+  "afkThresholds": {
+    "minGameMinutes": 10,
+    "maxCsPerMin": 0.5,
+    "maxDamageToChamp": 1500,
+    "maxGoldEarned": 4000
+  }
+}
+
